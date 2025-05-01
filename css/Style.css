@@ -1,0 +1,20 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --grisclaro: #dfe9f3;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: mandatory;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'krub',sans-serif;
+    background-image: linear-gradient(to top, var(--grisclaro)0%,var(--blanco)100%);
+}
